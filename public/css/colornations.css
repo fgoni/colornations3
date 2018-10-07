@@ -1,0 +1,176 @@
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+body #content {
+    padding: 65px 0;
+}
+
+@media (min-width: 1200px) {
+    body.sw-toggled #content {
+        padding: 65px 0 30px 250px;
+    }
+}
+
+#sidebar {
+    top: 101px;
+}
+
+#header {
+    background: #1e1e1e;
+    word-spacing: 5px;
+}
+
+#reds {
+    color: white;
+    background: #F44336;
+}
+
+#blues {
+    color: white;
+    background: #2196F3;
+}
+
+#greens {
+    color: white;
+    background: #4CAF50;
+}
+
+#oranges {
+    color: white;
+    background: #FF9800;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.modal-open {
+    overflow: visible;
+}
+
+#sidebar .profile-menu > a {
+    background: url("../img/profile-bg.jpg") no-repeat center;
+    background-size: 100%;
+}
+
+.navbar-text {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.battle {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.won, .lost, .tie, .gold {
+    color: green;
+    font-weight: bold;
+}
+
+.lost {
+    color: red;
+}
+
+.tie {
+    color: darkslategray;
+}
+
+.gold {
+    color: gold;
+}
+
+.big {
+    font-size: 2rem;
+}
+
+#sidebar .profile-menu > a .profile-info {
+    width: 100%;
+    top: 100px;
+    margin-top: 0;
+}
+
+small {
+    font-size: 1rem;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: dimgrey;
+}
+
+#sidebar .main-menu > li.active > a {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .table {
+        width: auto;
+    }
+}
+
+.won-row {
+    color: slategray;
+    background-color: #c4eec2;
+}
+
+.lost-row {
+    color: slategray;
+    background-color: #eecac6;
+}
+
+.header-inner > li {
+    vertical-align: middle;
+}
+
+.subheader {
+    width: 100%;
+    position: fixed;
+    top: 65px;
+    height: 36px;
+    font-size: 1.5rem;
+    z-index: 1000;
+    padding: 0.5em;
+    color: white;
+}
+
+.announcements {
+    width: 100%;
+    position: relative;
+    top: 36px;
+    font-size: 1.5rem;
+    z-index: 2;
+    padding: 0.5em;
+}
+
+.border {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+}
+
+/*# sourceMappingURL=colornations.css.map */
